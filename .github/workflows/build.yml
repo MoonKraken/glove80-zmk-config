@@ -26,7 +26,7 @@ jobs:
       - name: Copy result out of nix store
         run: cp combined/glove80.uf2 glove80.uf2
       - name: Upload result
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: glove80.uf2
           path: glove80.uf2
